@@ -15,7 +15,7 @@ Este proyecto implementa un sistema inteligente de control climático mediante u
 |---------------------|--------------------------------------|-------------------------------------|
 | Microcontrolador    | ESP32S (30 pines)                    | Cerebro del sistema                 |
 | Sensor ambiental    | DHT11 (4 pines)                      | Mide temperatura y humedad          |
-| Motor DC            | 12V con transistor 2N2222A           | Ventilador/refrigeración            |
+| Motor DC            | 12V con transistor 2N222A           | Ventilador/refrigeración            |
 | Servomotor          | SG90                                 | Simula limpiaparabrisas             |
 | Pantalla            | LCD 16x2 con interfaz I2C            | Muestra datos y estados             |
 | Buzzer              | Pasivo                               | Alerta por alta temperatura         |
