@@ -4,8 +4,8 @@
 Este proyecto implementa un sistema inteligente de control climático mediante un ESP32 que:
 1. **Monitorea condiciones ambientales** usando un sensor DHT11 (temperatura y humedad)
 2. **Activa dispositivos automáticamente** según umbrales predefinidos:
-   - 🌀 **Ventilador (Motor DC)**: Se activa cuando temperatura ≥ 30°C
-   - 🪟 **Limpiaparabrisas (Servo SG90)**: Activa cuando humedad ≥ 65%
+   -  **Ventilador (Motor DC)**: Se activa cuando temperatura ≥ 30°C
+   -  **Limpiaparabrisas (Servo SG90)**: Activa cuando humedad ≥ 65%
 3. **Interfaz web local** para control manual remoto de dispositivos
 4. **Sistema de alertas** con buzzer cuando temperatura excede 38°C
 5. **Visualización en LCD 16x2** con estado en tiempo real
